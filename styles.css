@@ -1,0 +1,367 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Updated font */
+    background: url('Image\Logo-modified.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000; /* Black text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+    color: #ff5e62;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ff5e62;
+    border-bottom: 2px solid #ff5e62;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ff5e62;
+    transform: scale(1.1);
+}
+
+.whatsapp-icon:hover {
+    color: #25D366;
+}
+
+/* Hero Section */
+.background-classic {
+    background-image: url('Image\Logo-modified.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero-content h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    background-color: #e1306c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d11a5a;
+}
+
+/* Intro Section */
+.intro-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 300px;
+    border: 2px solid #e1306c;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-bottom: 2px solid #e1306c;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+}
+
+/* Services Section */
+.services-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-item {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.service-item:hover {
+    background-color: #e1306c;
+    color: white;
+    transform: scale(1.05);
+}
+
+.service-item i {
+    font-size: 40px;
+    color: #e1306c;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.testimonial-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Blog Section */
+.blog-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.blog-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-post {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.blog-post:hover {
+    background-color: #e1306c;
+    color: white;
+    transform: scale(1.05);
+}
+
+.blog-post h3 {
+    margin-top: 10px;
+}
+
+/* About Us Section */
+.about-us-section {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.about-us-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Match the font size */
+    font-weight: 600; /* Match the font weight */
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.about-item {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.about-item:hover {
+    transform: scale(1.05);
+}
+
+.about-item h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #e1306c;
+}
+
+.about-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.footer-content .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.footer-content .contact-info p {
+    display: flex;
+    align-items: center;
+}
+
+.footer-content .contact-info i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.footer-content a {
+    color: #e1306c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #d11a5a;
+}
